@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": false,
+    "diagnostics": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "app/*"
+      ]
+    },
+    "moduleResolution": "node",
+    "removeComments": false
+  },
+  "exclude": [
+    "node_modules",
+    "platforms",
+    "**/*.aot.ts",
+    "../src/node_modules"
+  ]
+}

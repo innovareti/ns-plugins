@@ -1,0 +1,57 @@
+{
+    "name": "nativescript-youtubeplayer",
+    "version": "3.0.1",
+    "description": "YoutubePlayer for Nativescript",
+    "main": "youtubeplayer",
+    "typings": "index.d.ts",
+    "nativescript": {
+        "platforms": {
+            "android": "6.0.0",
+            "ios": "6.0.1"
+        }
+    },
+    "scripts": {
+        "tsc": "tsc -skipLibCheck",
+        "build": "npm i && tsc",
+        "test.android": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch",
+        "test.ios": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
+        "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/+(node_modules|typings)/**\"",
+        "plugin.link": "npm link && cd ../demo && npm link nativescript-youtubeplayer && npm link nativescript-youtubeplayer && cd ../src",
+        "plugin.tscwatch": "npm run tsc -- -w",
+        "demo.ios": "npm i && npm run tsc && cd ../demo && tns run ios --syncAllFiles",
+        "demo.android": "npm i && npm run tsc && cd ../demo && tns run android --syncAllFiles",
+        "clean": "rm -rf node_modules && cd ../demo && rm -rf hooks node_modules platforms && cd ../src && npm run plugin.link",
+        "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/+(node_modules|typings|*.d.ts)/**'"
+    },
+    "keywords": [
+        "NativeScript",
+        "JavaScript",
+        "Android",
+        "iOS",
+        "youtube",
+        "player",
+        "video"
+    ],
+    "author": {
+        "name": "Osei Fortune",
+        "email": "fortune.osei@yahoo.com"
+    },
+    "bugs": {
+        "url": "https://github.com/triniwiz/nativescript-youtubeplayer/issues"
+    },
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/triniwiz/nativescript-youtubeplayer",
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "tns-core-modules": "^6.0.0",
+        "tns-platform-declarations": "^6.4.1",
+        "typescript": "~3.4.5",
+        "prompt": "^1.0.0",
+        "rimraf": "^2.6.3",
+        "tslint": "^5.12.1",
+        "semver": "^5.6.0",
+        "zone.js": "^0.8.12",
+        "rxjs": "~6.0.0"
+    },
+    "bootstrapper": "nativescript-plugin-seed"
+}
