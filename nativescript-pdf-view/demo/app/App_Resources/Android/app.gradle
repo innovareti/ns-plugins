@@ -1,0 +1,9 @@
+android {
+  defaultConfig {
+    generatedDensities = []
+    applicationId = "de.mynethome.nativescriptpdfviewdemo"
+  }
+  aaptOptions {
+    additionalParameters "--no-version-vectors"
+  }
+}
