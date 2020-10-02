@@ -1,4 +1,4 @@
-/// <reference types="androidpdfviewer" />
+/// <reference types="AndroidPdfViewer" />
 import pdfviewer = com.github.barteksc.pdfviewer;
 import { PDFViewCommon } from './pdf-view.common';
 export declare class PDFView extends PDFViewCommon {
