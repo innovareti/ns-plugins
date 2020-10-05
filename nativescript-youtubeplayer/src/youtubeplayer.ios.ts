@@ -1,6 +1,6 @@
-import * as application from 'tns-core-modules/application';
-import { fromObject } from 'tns-core-modules/data/observable';
-import { layout } from 'tns-core-modules/ui/core/view';
+import * as application from '@nativescript/core/application';
+import { fromObject } from '@nativescript/core/data/observable';
+import { layout } from '@nativescript/core/utils/utils';
 import {
     BUFFERING_EVENT,
     ENDED_EVENT,

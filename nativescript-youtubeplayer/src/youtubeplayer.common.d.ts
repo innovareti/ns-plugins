@@ -1,4 +1,4 @@
-import { Property, View } from 'tns-core-modules/ui/core/view';
+import { Property, View } from '@nativescript/core/ui/core/view';
 export declare const FULLSCREEN_EVENT = "fullScreen";
 export declare const PLAYING_EVENT = "playing";
 export declare const PAUSED_EVENT = "paused";

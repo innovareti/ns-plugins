@@ -1,6 +1,6 @@
-import * as app from 'tns-core-modules/application';
-import { fromObject } from 'tns-core-modules/data/observable';
-import { Property } from 'tns-core-modules/ui/core/view';
+import * as app from '@nativescript/core/application';
+import { fromObject } from '@nativescript/core/data/observable';
+import { Property } from '@nativescript/core/ui/core/view';
 import {
     ADSTARTED_EVENT,
     apiKeyProperty,
