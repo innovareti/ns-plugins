@@ -1,0 +1,100 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo" 
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+    
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Home"></Label>
+    </ActionBar>
+
+    <ScrollView>
+        <StackLayout id="main" class="page">
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+            <Label class="text-formatted" text="Hellow madafaka"></Label>
+        </StackLayout>
+    </ScrollView>
+</Page>
