@@ -1,5 +1,5 @@
 {
-	"name": "@enduco/nativescript-cscreenshot",
+	"name": "nativescript-cscreenshot",
 	"version": "1.0.0",
 	"description": "Your Take a View Screenshot Nativescript Plugin!",
 	"main": "cscreenshot",
